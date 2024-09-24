@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Rubik;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik;
+  src: url("../fonts/Rubik-SemiBold.ttf");
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1620px;
+}
+
+.log__wrapper {
+  display: flex;
+}
+.log__logo {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.log__bg {
+  width: 100%;
+}
+.log__box {
+  display: flex;
+  flex-direction: column;
+  background: rgb(3, 21, 57);
+  background: linear-gradient(0deg, rgb(3, 21, 57) 20%, rgb(8, 59, 159) 100%);
+  border-left: 2px solid #FF8A00;
+  padding: 40px 40px 50px 40px;
+}
+.log__title {
+  font-weight: 800;
+  font-size: 40px;
+  color: #FF8A00;
+  max-width: 410px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.log__form {
+  display: flex;
+  flex-direction: column;
+}
+.log__input {
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  padding: 25px 0px 25px 40px;
+  border: 0px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.log__input_last::after {
+  content: url("../img/eye.svg");
+}
+.log__input placeholder {
+  color: #C9C9C9;
+}
+.log__input-btn {
+  background-color: #FF8A00;
+  border-radius: 5px;
+  padding: 25px 40px 25px 40px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 20px;
+  max-width: 450px;
+  border: 0px;
+}
+.log__login-box {
+  display: flex;
+  flex-direction: column;
+}
+.log__login-text {
+  font-weight: 800;
+  font-size: 40px;
+  color: #FF8A00;
+  max-width: 450px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.log__login-btn {
+  background-color: #FF8A00;
+  border-radius: 5px;
+  padding: 25px 40px 25px 40px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  max-width: 450px;
+}
+.log__login-btn span {
+  margin-left: 20px;
+}
